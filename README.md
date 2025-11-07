@@ -78,24 +78,48 @@
 ---
 
 ### ✍️ Random Dev Quote
+
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="random quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&rand=1" alt="random quote 1" />
+</p>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&rand=2" alt="random quote 2" width="0" height="0" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&rand=3" alt="random quote 3" width="0" height="0" />
 </p>
 
 <p align="center">
   <a href="https://github.com/mdshahadat/mdshahadat#-random-dev-quote">
-    <img src="https://img.shields.io/badge/🔄%20Click%20to%20Get%20New%20Quote-1f425f?style=for-the-badge&logo=github" alt="Reload Quote"/>
+    <img src="https://img.shields.io/badge/🔄%20Click%20to%20Change%20Quote-blue?style=for-the-badge" alt="Change Quote"/>
   </a>
 </p>
+
 
 
 ---
 
 ### ⚡ Latest Public Repos
 <p align="center">
-  <img src="https://github.com/shahadat1993/Interactive-Cares-Assignment-02" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mdshahadat&repo=MERN-Ecommerce&theme=tokyonight" />
+
+  <!-- 🟦 শুধু নিচের অংশে তোমার repo নাম বদলাও -->
+  
+  <!-- ১ম Row -->
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=Interactive-Cares-Assignment-02" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=laravel11-e-commerce" />
+
+  <!-- ২য় Row -->
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=finalProject" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=ProductDetails" />
+
+  <!-- আরও repo যোগ করতে নিচে একই pattern এ বাড়াও -->
+  <!-- Example:
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=two-good" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=school-management&theme=tokyonight" />
+  -->
+
 </p>
+
+
 
 ---
 
