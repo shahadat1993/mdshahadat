@@ -77,22 +77,27 @@
 
 ---
 
-### ✍️ Random Dev Quote
-
+### 🚀 Featured Projects
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&rand=1" alt="random quote 1" />
-</p>
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&rand=2" alt="random quote 2" width="0" height="0" />
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&rand=3" alt="random quote 3" width="0" height="0" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/mdshahadat/mdshahadat#-random-dev-quote">
-    <img src="https://img.shields.io/badge/🔄%20Click%20to%20Change%20Quote-blue?style=for-the-badge" alt="Change Quote"/>
+  <!-- Project 1 -->
+  <a href="https://github.com/mdshahadat/Portfolio-Website" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=Interactive-Cares-Assignment-02&border_radius=15&show_owner=true&bg_color=0D1117" alt="Portfolio Website" title="Portfolio Website" />
   </a>
+
+  <!-- spacing between cards -->
+  &nbsp;&nbsp;&nbsp;
+
+  <!-- Project 2 -->
+  <a href="https://github.com/mdshahadat/MERN-Ecommerce" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=final_project_Ashikur&border_radius=15&show_owner=true&bg_color=0D1117" alt="MERN Ecommerce" title="MERN Ecommerce" />
+  </a>
+
 </p>
+
+<!-- Optional: Add more projects in the same pattern -->
+
+
 
 
 
