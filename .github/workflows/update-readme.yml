@@ -1,27 +1,27 @@
-name: Update README with GitHub Metrics
+name: 🌙 Auto Update Profile README
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # প্রতি 12 ঘন্টায় auto update
-  workflow_dispatch: # চাইলে manually চালাতে পারবে
+    - cron: "0 0 * * *" # প্রতিদিন রাত ১২টায় (UTC অনুযায়ী) auto update হবে
+  workflow_dispatch: # ম্যানুয়ালি চালানোর সুযোগ থাকবে
 
 jobs:
-  github-metrics:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub Stats
-        uses: lowlighter/metrics@latest
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update README Content
+        uses: teoxoy/profile-readme-stats@v1
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: mdshahadat
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Dhaka
-          plugin_isocalendar: yes
-          plugin_languages: yes
-          plugin_stars: yes
-          plugin_followup: yes
-          plugin_habits: yes
-          plugin_lines: yes
-          plugin_people: yes
-          plugin_traffic: yes
+          token: ${{ secrets.GITHUB_TOKEN }}
+          readme_path: README.md
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "🧠 Auto update README [skip ci]" || echo "No changes to commit"
+          git push
