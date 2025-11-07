@@ -1,5 +1,8 @@
 <!-- Header section -->
-<h1 align="center">Hi 👋, I'm Md Shahadat</h1>
+<h1 align="center">
+  Hi 👋, I'm <a href="[https://www.linkedin.com/in/mdshahadat](https://www.linkedin.com/in/shahadat-hossen-tasnif?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)">Md Shahadat</a>
+</h1>
+
 
 <!-- Typing effect -->
 <p align="center">
@@ -82,20 +85,28 @@
 
   <!-- Project 1 -->
   <a href="https://github.com/mdshahadat/Portfolio-Website" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=Interactive-Cares-Assignment-02&border_radius=15&show_owner=true&bg_color=0D1117" alt="Portfolio Website" title="Portfolio Website" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=Interactive-Cares-Assignment-02&theme=tokyonight&border_radius=20&bg_color=161b22&show_owner=true&hide_border=false" alt="Portfolio Website" title="Portfolio Website" />
   </a>
-
-  <!-- spacing between cards -->
   &nbsp;&nbsp;&nbsp;
-
+  
   <!-- Project 2 -->
   <a href="https://github.com/mdshahadat/MERN-Ecommerce" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=final_project_Ashikur&border_radius=15&show_owner=true&bg_color=0D1117" alt="MERN Ecommerce" title="MERN Ecommerce" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=final_project_Ashikur&theme=tokyonight&border_radius=20&bg_color=161b22&show_owner=true&hide_border=false" alt="MERN Ecommerce" title="MERN Ecommerce" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+
+  <!-- Project 3 -->
+  <a href="https://github.com/mdshahadat/MERN-Ecommerce" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=two-good&theme=tokyonight&border_radius=20&bg_color=161b22&show_owner=true&hide_border=false" alt="Two Good" title="Two Good" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+
+  <!-- Project 4 -->
+  <a href="https://github.com/mdshahadat/MERN-Ecommerce" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shahadat1993&repo=ProductDetails&theme=tokyonight&border_radius=20&bg_color=161b22&show_owner=true&hide_border=false" alt="Product Details" title="Product Details" />
   </a>
 
 </p>
-
-<!-- Optional: Add more projects in the same pattern -->
 
 
 
